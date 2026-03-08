@@ -1,0 +1,75 @@
+name: Bug Report
+description: Report a bug in Plexus
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Plexus Version
+      description: "Help > About Plexus, or check the title bar"
+      placeholder: "e.g. 0.10.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      description: Which agent were you using?
+      options:
+        - Claude Code
+        - Codex
+        - Cline
+        - Gemini CLI
+        - Not applicable
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      description: Which mode were you in?
+      options:
+        - Plan
+        - Orchestrate
+        - Freestyle
+        - Not applicable
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Open Plexus
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste any relevant log output or attach screenshots.
+      render: shell
+    validations:
+      required: false
