@@ -2,7 +2,7 @@
 
 This is the public issue tracker for [Plexus](https://thinkwright.ai/plexus), the autonomous multi-agent development workbench for macOS.
 
-**[Report a bug](https://github.com/thinkwright/plexus-issues/issues/new?labels=bug&template=bug_report.md)** · **[Request a feature](https://github.com/thinkwright/plexus-issues/issues/new?labels=enhancement&template=feature_request.md)**
+**[Report a bug](https://github.com/thinkwright/plexus-issues/issues/new?template=bug_report.yml)** · **[Request a feature](https://github.com/thinkwright/plexus-issues/issues/new?template=feature_request.yml)**
 
 ## Before filing
 
