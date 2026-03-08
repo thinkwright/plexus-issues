@@ -25,19 +25,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: mode
-    attributes:
-      label: Mode
-      description: Which mode were you in?
-      options:
-        - Plan
-        - Orchestrate
-        - Freestyle
-        - Not applicable
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
